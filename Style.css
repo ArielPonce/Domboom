@@ -1,0 +1,39 @@
+body
+{
+    background-color: rgb(4, 4, 82);
+}
+header
+{
+    margin-left: 0;
+    margin-top: 0;
+}
+.titul
+{
+    margin-left: 190px;
+    position: absolute;
+    display: flex;
+}
+.links
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 700px;
+}
+.bor
+{
+    border-left: thin solid;
+    margin-left: 30px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.drum
+{
+    position: absolute;
+    width: 600px;
+    height: 550px;
+}
