@@ -125,85 +125,61 @@ footer{
     font-size: 15px;
     width: 100px;
 }
-.right1
+
+.pad-sm
 {
     background-color: rgb(0, 0, 0);
     border-radius: 100%;
     width: 118px;
     height: 118px;
     position: absolute;
+
+}
+.pad-lg
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    width: 162px;
+    height: 162px;
+    position: absolute;
+}
+.padright1
+{
     top: 50px;
     left: 690px;
 }
-.right2
+.padright2
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 118px;
-    height: 118px;
-    position: absolute;
     top: 175px;
     left: 630px;
 }
-.right3
+.padright3
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 162px;
-    height: 162px;
-    position: absolute;
     top: 305px;
     left: 545px;
 }
-.center2
+.padcenter2
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 164px;
-    height: 164px;
-    position: absolute;
     top: 100px;
-    left: 448px;
+    left: 450px;
 }
-.left1
+.padleft1
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 118px;
-    height: 118px;
-    position: absolute;
     top: 50px;
     left: 67px;
 }
-.left2
+.padleft2
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 118px;
-    height: 118px;
-    position: absolute;
     top: 175px;
     left: 125px;
 }
-.left3
+.padleft3
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 162px;
-    height: 162px;
-    position: absolute;
-    top: 70px;
-    left:290px;
     top: 305px;
     left: 170px;
 }
-.center1
+.padcenter1
 {
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    width: 164px;
-    height: 164px;
-    position: absolute;
     top: 100px;
-    left: 262px;
+    left: 265px;
 }
