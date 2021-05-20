@@ -16,8 +16,8 @@ header
 }
 .logo {
     width: 20%;
-   padding-top: 5%; 
-   padding-left: 5%;
+    padding-top: 5%; 
+    padding-left: 5%;
 }
 nav{
     display: flex;
@@ -30,17 +30,20 @@ nav{
     width: 37%;
     font-size: 19px;
 }
+.menudisplay
+{
+    display: none;
+}
 main
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 10%;
     width: 100%;
-    
 }
 
 .texto
 {
+    margin-top: 10%;
     position: relative;
     padding-left: 5%;
     width: 40%;
@@ -48,7 +51,7 @@ main
 h1{
     position: relative;
     font-family: 'Lato', sans-serif;
-    font-size: 70px;
+    font-size: 500%;
     color: white;
     margin-block-end: 5%;
 }
@@ -60,21 +63,22 @@ h1{
 }
 .bateria
 {
+    margin-top: 5%;
     position: relative;
     width: 60%;
+    height: fit-content;
 }
 .circle{
-    margin-left: 40%;
     position:absolute;
-    width: 60%;
+    width: 100%;
     height: 100%;
-    background:  radial-gradient(50.07% 50.07% at 50% 49.93%, #9916FF 0%, rgba(169, 115, 211, 0) 100%);
+    background:  radial-gradient(50.07% 50.07% at 50% 49.93%, #745a86 0%, rgba(169, 115, 211, 0) 100%);
 }
 .image
 {
     position: relative;
     width: 100%;
-    padding-top: 2%;
+    margin-top: 10%;
 }
 a
 {
@@ -94,8 +98,9 @@ a
     position: relative;
     color: white;
     background-color: rgb(26, 247, 137);
+    margin-top: 4%;
     width: 200px;
-    height: 50px;
+    height: 60px;
     border-radius: 30px;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -103,10 +108,13 @@ a
 footer{
     position: relative;
     display: flex;
+    justify-content:center;
+}
+.contenidoFooter
+{
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    padding-top: 3%;
-    padding-left: 33%;
+    justify-content: center;
 }
 h2{
     font-family: 'Lato', sans-serif;
@@ -118,8 +126,6 @@ h2{
     font-family: 'Lato', sans-serif;
     font-size: 19px;
     color: rgba(255, 250, 250, 0.322);
-    margin-top: 0%;
-    margin-left: 15px;
 }
 .butt
 {
@@ -127,18 +133,19 @@ h2{
     background-color: white;
     border-radius: 30px;
     font-family: 'Lato', sans-serif;
+    margin-left: 30%;
     font-size: 15px;
     width: 170px;
     height: 50px;
-    margin-left: 160px;
 }
 
 .pad-sm
 {
     background-color: rgb(248, 241, 241);
     border-radius: 100%;
-    width: 16%;
-    height: 21%;
+    width: 14%;
+    height: 0%;
+    padding-bottom: 14%;
     position: absolute;
 
 }
@@ -147,46 +154,93 @@ h2{
     background-color: rgb(243, 239, 239);
     border-radius: 100%;
     width: 20%;
-    height: 28%;
+    height: 0%;
+    padding-bottom: 20%;
     position: absolute;
 }
 .padright1
 {
-    top: 9%;
-    left: 82%;
+    top: 18%;
+    left: 83%;
 }
 .padright2
 {
-    top: 31%;
-    left: 74%;
+    top: 38%;
+    left: 75%;
 }
 .padright3
 {
-    top: 54%;
+    top: 59%;
     left: 64%;
 }
 .padcenter2
 {
-    top: 18%;
+    top: 26%;
     left: 52%;
 }
 .padleft1
 {
-    top: 9%;
-    left: 2%;
+    top: 18%;
+    left: 3%;
 }
 .padleft2
 {
-    top: 30%;
-    left: 9%;
+    top: 38%;
+    left: 10%;
 }
 .padleft3
 {
-    top: 54%;
+    top: 59%;
     left: 16%;
 }
 .padcenter1
 {
-    top: 18%;
+    top: 26%;
     left: 28%;
 }
+@media (max-width: 857px) 
+{
+    .conteiner
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    main
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    nav
+    {
+        display: none;
+    }
+    .bateria
+    {
+        width: 100%;
+    }
+    .logo
+    {
+        margin-left: 20%;
+        margin-top: 20%;
+        width: 50%;
+    }
+    .menudisplay{
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+    .buttonnav{
+        position: absolute;
+        background-color: rgb(26, 247, 137);
+        width: 100%;
+        height: 35%;
+        border-radius: 30px;
+    }
+    .imgmenu{
+        margin-left: 55%;
+        margin-top: 15%;
+        position: absolute;
+        width: 30%;
+        height: 20%;
+    }
+}   
