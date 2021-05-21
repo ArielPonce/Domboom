@@ -47,6 +47,7 @@ main
     position: relative;
     padding-left: 5%;
     width: 40%;
+    height: fit-content;
 }
 h1{
     position: relative;
@@ -127,7 +128,7 @@ h2{
     font-size: 19px;
     color: rgba(255, 250, 250, 0.322);
 }
-.butt
+.botonFooter
 {
     color: black;
     background-color: white;
@@ -198,6 +199,11 @@ h2{
     top: 26%;
     left: 28%;
 }
+.buttonhit
+{
+    display: none;
+}
+
 @media (max-width: 857px) 
 {
     .conteiner
@@ -242,5 +248,59 @@ h2{
         position: absolute;
         width: 30%;
         height: 20%;
+    }
+    h1
+    {
+        font-size: 300%;
+    }
+    .p1
+    {
+        font-size: 80%;
+    }
+    .texto
+    {
+        margin-left: 15%;
+        width: 70%;
+    }
+    .buttonhit
+    {
+        display: flex;
+        font-size: 250%;
+        font-family:  'Lato', sans-serif;
+        background-color: rgba(34, 31, 31, 0.822);
+        border-radius: 50%;
+        margin-left: 15%;
+        padding-top: 28%;
+        padding-left: 28%;
+        width: 70%;
+        height: 70%;
+        border: 1px solid; 
+        border-color: rgb(71, 71, 71);
+        color: rgb(71, 71, 71);
+    }
+    .buttonhit0
+    {
+        display: flex;
+        position: relative;
+        margin-top: 30%;
+        width: 100%;
+        height: 350px;
+    }
+    footer
+    {
+        margin-left: 10%;
+        width: 80%;
+    }
+    h2
+    {
+        font-size: 130%;
+    }
+    .p2
+    {
+        font-size: 70%
+    }
+    .botonFooter
+    {
+        margin-left: 20%;
     }
 }   
