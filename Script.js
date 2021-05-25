@@ -57,4 +57,4 @@ center1.addEventListener("click", function() {
 hit.addEventListener("click", function(){
     sonidoTom.play();
     sonidoTom.currentTime = 0;
-});
+});j
