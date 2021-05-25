@@ -10,15 +10,15 @@ let hit = document.querySelector(".buttonhit")
 
 
 
-let sonidoTink = new Audio("audio/tink.wav");
-let sonidoHiHat = new Audio("audio/hihat.wav");
-let sonidoOpenHat = new Audio("audio/openhat.wav");
-let sonidoBoom = new Audio("audio/boom.wav");
-let sonidoClap = new Audio("audio/clap.wav");
-let sonidokick = new Audio("audio/kick.wav");
-let sonidoRide = new Audio("audio/ride.wav");
-let sonidoSnare = new Audio("audio/snare.wav");
-let sonidoTom = new Audio("audio/tom.wav");
+let sonidoTink = new Audio("Audios/tink.wav");
+let sonidoHiHat = new Audio("Audios/hihat.wav");
+let sonidoOpenHat = new Audio("Audios/openhat.wav");
+let sonidoBoom = new Audio("Audios/boom.wav");
+let sonidoClap = new Audio("Audios/clap.wav");
+let sonidokick = new Audio("Audios/kick.wav");
+let sonidoRide = new Audio("Audios/ride.wav");
+let sonidoSnare = new Audio("Audios/snare.wav");
+let sonidoTom = new Audio("Audios/tom.wav");
 
 
 
@@ -27,16 +27,16 @@ right1.addEventListener("click", function() {
     sonidoTink.currentTime = 0;
 });
 right2.addEventListener("click", function() {
-    sonidokick.play();
-    sonidokick.currentTime = 0;
+    sonidoClap.play();
+    sonidoClap.currentTime = 0;
 });
 right3.addEventListener("click", function() {
     sonidoOpenHat.play();
     sonidoOpenHat.currentTime = 0;
 });
 center2.addEventListener("click", function() {
-    sonidoClap.play();
-    sonidoClap.currentTime = 0;
+    sonidokick.play();
+    sonidokick.currentTime = 0;
 });
 left1.addEventListener("click", function() {
     sonidoSnare.play();

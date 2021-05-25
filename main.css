@@ -142,20 +142,20 @@ h2{
 
 .pad-sm
 {
-    background-color: rgb(248, 241, 241);
+    background-color: rgba(0, 0, 0, 0.664);
     border-radius: 100%;
     width: 14%;
     height: 0%;
-    padding-bottom: 14%;
+    padding-bottom: 13%;
     position: absolute;
 }
 .pad-lg
 {
-    background-color: rgb(243, 239, 239);
+    background-color: rgba(0, 0, 0, 0.644);
     border-radius: 100%;
     width: 20%;
     height: 0%;
-    padding-bottom: 20%;
+    padding-bottom: 19%;
     position: absolute;
 }
 .padright1
@@ -264,15 +264,15 @@ h2{
     .buttonhit
     {
         display: flex;
+        justify-content: center;
+        padding-top: 30%;
         font-size: 250%;
         font-family:  'Lato', sans-serif;
         background-color: rgba(34, 31, 31, 0.822);
         border-radius: 50%;
         margin-left: 15%;
-        padding-top: 28%;
-        padding-left: 28%;
         width: 70%;
-        height: 70%;
+        padding-bottom: 30%;
         border: 1px solid; 
         border-color: rgb(71, 71, 71);
         color: rgb(71, 71, 71);
@@ -283,7 +283,7 @@ h2{
         position: relative;
         margin-top: 30%;
         width: 100%;
-        height: 350px;
+        height:fit-content;
     }
     footer
     {
