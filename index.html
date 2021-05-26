@@ -42,7 +42,8 @@
         <div class="bateria"> 
           <div class="circle"></div>
           <img class="image" src="drumkit.png" alt="Bateria">
-          <button class="pad-sm padright1"></button>
+          <button data-instrument="sonido" onclick="playAudio(this)" class="pad-sm padright1"></button>
+          <audio data-instrument="sonido" src="Audios/tink.wav"></audio>
           <button class="pad-sm padright2"></button>
           <button class="pad-lg padright3"></button>
           <button class="pad-lg padcenter2"></button>

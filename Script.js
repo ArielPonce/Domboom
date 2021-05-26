@@ -1,4 +1,14 @@
-let right1 = document.querySelector(".padright1");
+//forma corta de poner sonido en el pad//
+function playAudio(element)
+{
+    let dataInstrument = element.getAttribute("data-instrument");
+    let sonidoHtml = document.querySelector('audio[data-instrument= '+ dataInstrument +']');
+    sonidoHtml.currentTime = 0;
+    sonidoHtml.play();
+}
+
+// forma larga de poner sonido en los pad//
+
 let right2 = document.querySelector(".padright2");
 let right3 = document.querySelector(".padright3");
 let center2 = document.querySelector(".padcenter2")
@@ -20,12 +30,6 @@ let sonidoRide = new Audio("Audios/ride.wav");
 let sonidoSnare = new Audio("Audios/snare.wav");
 let sonidoTom = new Audio("Audios/tom.wav");
 
-
-
-right1.addEventListener("click", function() {
-    sonidoTink.play();
-    sonidoTink.currentTime = 0;
-});
 right2.addEventListener("click", function() {
     sonidoClap.play();
     sonidoClap.currentTime = 0;
@@ -57,4 +61,4 @@ center1.addEventListener("click", function() {
 hit.addEventListener("click", function(){
     sonidoTom.play();
     sonidoTom.currentTime = 0;
-});j
+});
