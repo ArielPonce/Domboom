@@ -222,9 +222,12 @@ h2{
         display: none;
     }
     .menudisplay{
+        margin-left: 75%;
         display: flex;
-        position: relative;
-        width: 100%;
+        position: absolute;
+        width: 25%;
+        height: 0;
+        padding-bottom: 30%;
     }
     .buttonnav{
         position: absolute;
@@ -235,7 +238,7 @@ h2{
     }
     .imgmenu{
         margin-left: 55%;
-        margin-top: 15%;
+        margin-top: 10%;
         position: absolute;
         width: 30%;
         height: 20%;
